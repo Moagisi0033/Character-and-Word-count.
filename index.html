@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character and Word Counter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Character and Word Counter Website</h1>
+		<h3>This is a simple character and word counter webpage:</h3>
+		<p>
+			This website is used to help count the number of words and characters used when writing an essay or a report.
+		</p>
+    </header>
+    <main>
+		<div>
+			<textarea id="text" placeholder="Type here..." oninput="count()"></textarea>
+			<div class="info">
+				Chars: <span id="chars">0</span> |
+				Words: <span id="words">0</span>
+			</div>
+		</div>
+    </main>
+    <footer>
+        <p>&copy; 15/09/2025 Website by <b>Molaolwa M</b>. All rights reserved.</p>
+    </footer>
+	<script src="script.js"></script>
+</body>
+</html>
